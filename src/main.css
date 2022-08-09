@@ -1,8 +1,28 @@
-@import url("https://dracula.github.io/betterdiscord/base.css");
+/* @import url("https://dracula.github.io/betterdiscord/base.css"); */
+
+/* Base theme file, don't disable */
+
+@import url("https://tiredmala.github.io/Roundmoled/main.css");
+
+@import "https://tiredmala.github.io/Roundmoled/optional/blur.css";
+
+/*
+@import "https://tiredmala.github.io/Roundmoled/optional/optional2.css";
+*/
+
+/*
+@import "https://tiredmala.github.io/Roundmoled/optional/optional3.css";
+*/
+
+/*                                Alternative color palettes                                                                      */
+
+/*
+@import "https://tiredmala.github.io/Roundmoled/palettes/roundturnal.css";
+*/
+
 @import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
 @import url("https://kckarnige.is-a.dev/transparent-menus/base.css");
-@import url("https://crearts-community.github.io/Friends-Grid/theme.css"); /* 🔻 Source Files */
-
+@import url("https://crearts-community.github.io/Friends-Grid/theme.css");
 @import url("https://crearts-community.github.io/Friends-Grid/modules/plugins/betterdiscord.css");
 @import url("https://spinfish.github.io/css-snippets/snippets/filled-roles.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
