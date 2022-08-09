@@ -8,6 +8,8 @@
  * @authorId 847030527822266378
  * @invite ynWdPzqhdH
  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css");
 @import url("https://frazix-gamers.github.io/SimpleUi-For-BetterDiscord/src/main.css");
 :root {
   --customFont: "Poppins";
@@ -15,4 +17,22 @@
   --opacity: 0.95;
   --settingsmodalwidth: 960px; /* default:	960px			(width of the settings modal, px/vw)															*/
   --settingsmodalheight: 80vh;
+
+  --accentcolor: 46, 58, 99;
+  --accentcolor2: 255, 0, 138;
+  --linkcolor: 63, 81, 181;
+  --mentioncolor: 208, 35, 23;
+  --textbrightest: 255, 255, 255;
+  --textbrighter: 222, 222, 222;
+  --textbright: 185, 185, 185;
+  --textdark: 140, 140, 140;
+  --textdarker: 115, 115, 115;
+  --textdarkest: 80, 80, 80;
+  --font: Poppins;
+  --backgroundaccent: 50, 50, 50;
+  --backgroundprimary: 30, 30, 30;
+  --backgroundsecondary: 20, 20, 20;
+  --backgroundsecondaryalt: 15, 15, 15;
+  --backgroundtertiary: 10, 10, 10;
+  --backgroundfloating: 0, 0, 0;
 }
