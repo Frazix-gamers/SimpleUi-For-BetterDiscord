@@ -1,7 +1,9 @@
 @import url("https://dracula.github.io/betterdiscord/base.css");
 @import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
 @import url("https://kckarnige.is-a.dev/transparent-menus/base.css");
-@import url("https://crearts-community.github.io/Friends-Grid/clients/betterdiscord.css");
+@import url("https://crearts-community.github.io/Friends-Grid/theme.css"); /* 🔻 Source Files */
+
+@import url("https://crearts-community.github.io/Friends-Grid/modules/plugins/betterdiscord.css");
 @import url("https://spinfish.github.io/css-snippets/snippets/filled-roles.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
 @import url("https://codedotspectra.github.io/themes/core/custom-font.css");
