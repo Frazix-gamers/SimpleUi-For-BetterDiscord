@@ -2,7 +2,7 @@
  * @name Simple UI
  * @description A Beautiful theme for betterdiscord
  * @author Frazix
- * @version 1.0.0
+ * @version 1.2.0
  * @source https://github.com/Frazix-gamers/SimpleUi-For-BetterDiscord
  * @updateUrl https://github.com/Frazix-gamers/SimpleUi-For-BetterDiscord/blob/main/SimpleUi.theme.css
  * @authorId 847030527822266378
@@ -11,12 +11,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css");
 @import url("https://frazix-gamers.github.io/SimpleUi-For-BetterDiscord/src/main.css");
+@import url("https://discord-extensions.github.io/essence/src/vendors/iconsax-discord.css");
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css");
+
 :root {
   --customFont: "Poppins";
   --background-image: url("https://i.imgur.com/rn0AlMm.jpg");
   --opacity: 0.95;
-  --settingsmodalwidth: 960px; /* default:	960px			(width of the settings modal, px/vw)															*/
-  --settingsmodalheight: 80vh;
+  --settingsmodalwidth: 1000px; /* default:	960px			(width of the settings modal, px/vw)															*/
+  --settingsmodalheight: 90vh;
 
   --accentcolor: 46, 58, 99;
   --accentcolor2: 255, 0, 138;
@@ -35,4 +38,11 @@
   --backgroundsecondaryalt: 15, 15, 15;
   --backgroundtertiary: 10, 10, 10;
   --backgroundfloating: 0, 0, 0;
+
+  --gradientColor01: #ffffff;
+  --gradientColor02: #acacac;
+
+  --roles-roundness: 0; /* change the 0 to any other number if you want the roles to be fully round */
+
+  --roles-roundness-calc: calc((var(--roles-roundness) + 0.21) * 25px);
 }
